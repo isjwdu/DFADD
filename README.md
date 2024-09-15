@@ -13,13 +13,18 @@
 **Key Features**: 
 1. DFADD is the first dataset that includes spoofed speech generated specifically using diffusion and Flow-matching based TTS models.
 
-2. Compared to anti-spoofing models trained on the ASVspoof, models trained on DFADD exhibit better Equal Error Rates (EERs) when confronted with spoofed speech generated using the same methods (diffusion and flow-matching).
+2. Compared to anti-spoofing models trained on the ASVspoof, models trained on DFADD exhibit better Equal Error Rates (EERs) when confronted with spoofed speech generated using the same methods.
 
 ## Dataset Download
 
-[**ZIP files**](https://huggingface.co/datasets/isjwdu/DFADD/tree/main)
+1. [HuggingFace dataset](https://huggingface.co/datasets/isjwdu/DFADD)
 
-TBD: Huggingface Datasets
+```
+from datasets import load_dataset
+DFADD = load_dataset('isjwdu/DFADD')
+```
+
+2. [**ZIP files**](https://huggingface.co/datasets/isjwdu/DFADD/tree/main)
 
 ## Acknowledgement
 
