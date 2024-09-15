@@ -2,7 +2,7 @@
 
 <p align="center">  
     <a href="">Paper</a>, 
-    <a href="https://huggingface.co/datasets/isjwdu/DFADD/tree/main">Dataset</a>, 
+    <a href="https://huggingface.co/datasets/isjwdu/DFADD">Dataset</a>, 
     <a href="https://github.com/DFADD-Dataset/DFADD_demo_pages/">Demo</a>, 
     <a href="https://github.com/isjwdu/DFADD">Homepage</a> 
 </p>
