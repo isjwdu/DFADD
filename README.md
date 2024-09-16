@@ -1,7 +1,7 @@
 # DFADD: The Diffusion and Flow-matching based Audio Deepfake Dataset
 
 <p align="center">  
-    <a href="">Paper</a>, 
+    <a href="https://arxiv.org/abs/2409.08731">Paper</a>, 
     <a href="https://huggingface.co/datasets/isjwdu/DFADD">Dataset</a>, 
     <a href="https://github.com/DFADD-Dataset/DFADD_demo_pages/">Demo</a>, 
     <a href="https://github.com/isjwdu/DFADD">Homepage</a> 
