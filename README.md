@@ -43,3 +43,17 @@ Grad-TTS (Official), https://github.com/huawei-noah/Speech-Backbones/tree/main/G
 Style-TTS2 (Official), https://github.com/yl4579/StyleTTS2.
 
 Matcha-TTS (Official), https://github.com/shivammehta25/Matcha-TTS.
+
+## Citation
+Please consider citing our paper if this work helps your research. Thank you!
+```
+@misc{du2024dfadddiffusionflowmatchingbased,
+      title={DFADD: The Diffusion and Flow-Matching Based Audio Deepfake Dataset}, 
+      author={Jiawei Du and I-Ming Lin and I-Hsiang Chiu and Xuanjun Chen and Haibin Wu and Wenze Ren and Yu Tsao and Hung-yi Lee and Jyh-Shing Roger Jang},
+      year={2024},
+      eprint={2409.08731},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2409.08731}, 
+}
+```
