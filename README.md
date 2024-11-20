@@ -10,13 +10,17 @@
     <i>SLT 2024</i>
 </p>
 
-**Key Features**: 
+#### Updates
+[11/2024] We provide checkpoint training on Unofficial PFlow-TTS.
+
+[09/2024] We release all DFADD datasets on Huggingface.
+
+## Key Features: 
 1. DFADD is the first dataset that includes spoofed speech generated specifically using diffusion and Flow-matching based TTS models.
 
 2. Compared to anti-spoofing models trained on the ASVspoof, models trained on DFADD exhibit better Equal Error Rates (EERs) when confronted with spoofed speech generated using the same methods.
 
 ## Dataset Download
-
 1. [HuggingFace dataset](https://huggingface.co/datasets/isjwdu/DFADD)
 
 ```
@@ -26,13 +30,26 @@ DFADD = load_dataset('isjwdu/DFADD')
 
 2. [**ZIP files**](https://huggingface.co/datasets/isjwdu/DFADD/tree/main)
 
-## Acknowledgement
+## Checkpoint Download
+For those interested in PFlow, we provide checkpoints trained for 1100 epochs on V100-32G.
 
+[Download PFlow Checkpoint](https://huggingface.co/datasets/isjwdu/DFADD/resolve/main/pflowtts_checkpoint_epoch%3D1099.ckpt)
+
+or
+```
+wget https://huggingface.co/datasets/isjwdu/DFADD/resolve/main/pflowtts_checkpoint_epoch%3D1099.ckpt
+```
+
+To generate speech for a VCTK speaker, follow [PFlow-TTS](https://github.com/p0p4k/pflowtts_pytorch) with the vocoder replaced by [HiFi-GAN VCTK_V1](https://drive.google.com/drive/folders/1vJlfkwR7Uyheq2U5HrPnfTm-tzwuNuey?usp=sharing) pre-trained on VCTK
+
+## Acknowledgement
 DFADD is created based on several official and unofficial open-source implementations and datasets:
 
 [VCTK](https://datashare.ed.ac.uk/handle/10283/3443) dataset, licensed under CC-BY-4.0.
 
 [LJ Speech](https://keithito.com/LJ-Speech-Dataset) dataset, licensed under Public Domain.
+
+Hifi-GAN Vocoder (Official), https://github.com/jik876/hifi-gan.
 
 PFlow-TTS (Unofficial), https://github.com/p0p4k/pflowtts_pytorch.
 
