@@ -64,13 +64,14 @@ Matcha-TTS (Official), https://github.com/shivammehta25/Matcha-TTS.
 ## Citation
 Please consider citing our paper if this work helps your research. Thank you!
 ```
-@misc{du2024dfadddiffusionflowmatchingbased,
-      title={DFADD: The Diffusion and Flow-Matching Based Audio Deepfake Dataset}, 
-      author={Jiawei Du and I-Ming Lin and I-Hsiang Chiu and Xuanjun Chen and Haibin Wu and Wenze Ren and Yu Tsao and Hung-yi Lee and Jyh-Shing Roger Jang},
-      year={2024},
-      eprint={2409.08731},
-      archivePrefix={arXiv},
-      primaryClass={cs.SD},
-      url={https://arxiv.org/abs/2409.08731}, 
-}
+@INPROCEEDINGS{10832250,
+  author={Du, Jiawei and Lin, I-Ming and Chiu, I-Hsiang and Chen, Xuanjun and Wu, Haibin and Ren, Wenze and Tsao, Yu and Lee, Hung-Yi and Jang, Jyh-Shing Roger},
+  booktitle={2024 IEEE Spoken Language Technology Workshop (SLT)}, 
+  title={DFADD: The Diffusion and Flow-Matching Based Audio Deepfake Dataset}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={921-928},
+  keywords={Deepfakes;Production systems;Frequency modulation;Codes;Conferences;Information security;Resists;Diffusion models;Robustness;Speech synthesis;dataset;deepfake detection;anti-spoofing;text-to-speech},
+  doi={10.1109/SLT61566.2024.10832250}}
 ```
