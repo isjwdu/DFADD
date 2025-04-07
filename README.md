@@ -11,6 +11,8 @@
 </p>
 
 #### Updates
+[04/2025] We fixed the mismatch between Matcha TTS audio and labels, and unified all audio formats. Please download the ZIP file for the updated data.
+
 [11/2024] We provide checkpoint training on Unofficial PFlow-TTS.
 
 [09/2024] We release all DFADD datasets on Huggingface.
@@ -29,6 +31,9 @@ DFADD = load_dataset('isjwdu/DFADD')
 ```
 
 2. [**ZIP files**](https://huggingface.co/datasets/isjwdu/DFADD/tree/main)
+
+The zip file was updated in Apr. 2025.
+Please merge the VCTK_BONAFIDE into each DFADD subset.
 
 ## Checkpoint Download
 For those interested in PFlow, we provide checkpoints trained for 1100 epochs on V100-32G.
